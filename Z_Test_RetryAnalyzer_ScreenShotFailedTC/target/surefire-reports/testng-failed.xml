@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ShakeDownSuite]" parallel="tests">
+  <test name="ShakeDownTest">
+    <classes>
+      <class name="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test"/>
+    </classes>
+  </test> <!-- ShakeDownTest -->
+  <test name="ShakeDownTest(failed)" parallel="tests">
+    <classes>
+      <class name="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test">
+        <methods>
+          <include name="Withdraw"/>
+          <include name="Reactivate"/>
+          <include name="Resubmit"/>
+          <include name="setup"/>
+          <include name="add_response"/>
+          <include name="Reprice"/>
+        </methods>
+      </class> <!-- shakeDown_US_main.Shakedown_CreateReq_AddResp_Test -->
+    </classes>
+  </test> <!-- ShakeDownTest(failed) -->
+</suite> <!-- Failed suite [ShakeDownSuite] -->

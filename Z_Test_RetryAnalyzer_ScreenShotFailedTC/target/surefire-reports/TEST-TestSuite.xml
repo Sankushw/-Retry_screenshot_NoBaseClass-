@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="479.94" tests="16" errors="0" skipped="3" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_221\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\SanjayKushwaha\workspace\TnM_Green_Shakedown_Testing"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\SanjayKushwaha\workspace\TnM_Green_Shakedown_Testing"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_221\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SANJAY~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\SanjayKushwaha\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5856075304885893355.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\apache-jmeter-5.3\bin;C:\Program Files\nodejs\;C:\Program Files\IBM\Trace Facility;C:\Program Files\IBM\Personal Communications\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\SanjayKushwaha\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\SanjayKushwaha\AppData\Local\Programs\Python\Python38\;C:\Users\SanjayKushwaha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\minishift-1.34.2-windows-amd64\minishift-1.34.2-windows-amd64;C:\Users\SanjayKushwaha\AppData\Roaming\npm;;C:\sanjay\CSA_T&amp;M\Software\eclipse-jee-neon-3-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\SanjayKushwaha"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="SanjayKushwaha"/>
+    <property name="java.class.path" value="/C:/sanjay/CSA_T&amp;M/Software/eclipse-jee-neon-3-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_221"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_221\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_221\lib\resources.jar;C:\Program Files\Java\jre1.8.0_221\lib\rt.jar;C:\Program Files\Java\jre1.8.0_221\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_221\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_221\lib\jce.jar;C:\Program Files\Java\jre1.8.0_221\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_221\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_221\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\SanjayKushwaha\workspace\TnM_Green_Shakedown_Testing\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="RIPC_Login" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="40.469"/>
+  <testcase name="Create_Req" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="3.979"/>
+  <testcase name="skill_Req" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="5.945"/>
+  <testcase name="select_Req" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="14.286"/>
+  <testcase name="select_jrss" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="6.75"/>
+  <testcase name="req_detail" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="18.624"/>
+  <testcase name="skill_loc" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="9.338"/>
+  <testcase name="alert_check" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="0.036"/>
+  <testcase name="skill_price" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="11.102"/>
+  <testcase name="supp" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="31.78"/>
+  <testcase name="OpenNewGreen" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="14.724"/>
+  <testcase name="add_response" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="94.011">
+    <failure message="Element &lt;span class=&quot;headerTitle&quot;&gt; is not clickable at point (980,682) because another element &lt;div id=&quot;hj-survey-lbl-1&quot; class=&quot;_hj-1X9Q4__styles__surveyTitle &quot;&gt; obscures it&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-GAEG9SK&apos;, ip: &apos;9.81.206.66&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: true, moz:processID: 29320, moz:profile: C:\Users\SanjayKushwaha\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 363536e9-65f3-4aa2-9ada-e1e7ae22ed11" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <span class="headerTitle"> is not clickable at point (980,682) because another element <div id="hj-survey-lbl-1" class="_hj-1X9Q4__styles__surveyTitle "> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GAEG9SK', ip: '9.81.206.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: true, moz:processID: 29320, moz:profile: C:\Users\SanjayKushwaha\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 363536e9-65f3-4aa2-9ada-e1e7ae22ed11
+	at shakeDown_US_main.Shakedown_CreateReq_AddResp_Test.add_response(Shakedown_CreateReq_AddResp_Test.java:173)
+]]></failure>
+    <system-out><![CDATA[Listners:[TestClass name=class shakeDown_US_main.Shakedown_CreateReq_AddResp_Test]--->Starting execution for method= add_response
+Sign in button clicked after entering credentials
+searched and Opened the request S23MV7
+feedback PopUp was Present and minimised
+Candidate form opened
+found response file button
+attachment uploaded--Filled info in Attachment Panel
+Filled info in response details Panel
+Filled info in Requirements attribute  Panel
+Listners:[TestClass name=class shakeDown_US_main.Shakedown_CreateReq_AddResp_Test]--->Execution failed for method= add_response -->Exception= org.openqa.selenium.ElementClickInterceptedException: Element <span class="headerTitle"> is not clickable at point (980,682) because another element <div id="hj-survey-lbl-1" class="_hj-1X9Q4__styles__surveyTitle "> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GAEG9SK', ip: '9.81.206.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: true, moz:processID: 29320, moz:profile: C:\Users\SanjayKushwaha\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 363536e9-65f3-4aa2-9ada-e1e7ae22ed11
+]]></system-out>
+    <system-err><![CDATA[JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1613564146686	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+]]></system-err>
+  </testcase>
+  <testcase name="Reprice" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="204.758">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //table[@class=&apos;custom-grid&apos;]/div[@class=&apos;ng-star-inserted&apos;]/tr[1]/td[2]/a&apos; (tried for 160 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //table[@class='custom-grid']/div[@class='ng-star-inserted']/tr[1]/td[2]/a' (tried for 160 second(s) with 500 milliseconds interval)
+	at shakeDown_US_main.Shakedown_CreateReq_AddResp_Test.Reprice(Shakedown_CreateReq_AddResp_Test.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //table[@class='custom-grid']/div[@class='ng-star-inserted']/tr[1]/td[2]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GAEG9SK', ip: '9.81.206.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: true, moz:processID: 29320, moz:profile: C:\Users\SanjayKushwaha\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 363536e9-65f3-4aa2-9ada-e1e7ae22ed11
+*** Element info: {Using=xpath, value=//table[@class='custom-grid']/div[@class='ng-star-inserted']/tr[1]/td[2]/a}
+	at shakeDown_US_main.Shakedown_CreateReq_AddResp_Test.Reprice(Shakedown_CreateReq_AddResp_Test.java:220)
+</failure>
+    <system-out><![CDATA[Listners:[TestClass name=class shakeDown_US_main.Shakedown_CreateReq_AddResp_Test]--->Starting execution for method= Reprice
+Listners:[TestClass name=class shakeDown_US_main.Shakedown_CreateReq_AddResp_Test]--->Execution failed for method= Reprice -->Exception= org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //table[@class='custom-grid']/div[@class='ng-star-inserted']/tr[1]/td[2]/a' (tried for 160 second(s) with 500 milliseconds interval)
+]]></system-out>
+  </testcase>
+  <testcase name="Withdraw" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="0">
+    <skipped message="Method Shakedown_CreateReq_AddResp_Test.Withdraw()[pri:12, instance:shakeDown_US_main.Shakedown_CreateReq_AddResp_Test@2acf57e3] depends on not successfully finished methods"/>
+    <system-out><![CDATA[Listners:[TestClass name=class shakeDown_US_main.Shakedown_CreateReq_AddResp_Test]--->Execution skipped for method= Withdraw
+]]></system-out>
+  </testcase>
+  <testcase name="Reactivate" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="0">
+    <skipped message="Method Shakedown_CreateReq_AddResp_Test.Reactivate()[pri:13, instance:shakeDown_US_main.Shakedown_CreateReq_AddResp_Test@2acf57e3] depends on not successfully finished methods"/>
+    <system-out><![CDATA[Listners:[TestClass name=class shakeDown_US_main.Shakedown_CreateReq_AddResp_Test]--->Execution skipped for method= Reactivate
+]]></system-out>
+  </testcase>
+  <testcase name="Resubmit" classname="shakeDown_US_main.Shakedown_CreateReq_AddResp_Test" time="0">
+    <skipped message="Method Shakedown_CreateReq_AddResp_Test.Resubmit()[pri:14, instance:shakeDown_US_main.Shakedown_CreateReq_AddResp_Test@2acf57e3] depends on not successfully finished methods"/>
+    <system-out><![CDATA[Listners:[TestClass name=class shakeDown_US_main.Shakedown_CreateReq_AddResp_Test]--->Execution skipped for method= Resubmit
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 479.94 sec <<< FAILURE! - in TestSuite
+add_response(shakeDown_US_main.Shakedown_CreateReq_AddResp_Test)  Time elapsed: 94.011 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <span class="headerTitle"> is not clickable at point (980,682) because another element <div id="hj-survey-lbl-1" class="_hj-1X9Q4__styles__surveyTitle "> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GAEG9SK', ip: '9.81.206.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: true, moz:processID: 29320, moz:profile: C:\Users\SanjayKushwaha\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 363536e9-65f3-4aa2-9ada-e1e7ae22ed11
+	at shakeDown_US_main.Shakedown_CreateReq_AddResp_Test.add_response(Shakedown_CreateReq_AddResp_Test.java:173)
+
+Reprice(shakeDown_US_main.Shakedown_CreateReq_AddResp_Test)  Time elapsed: 204.758 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //table[@class='custom-grid']/div[@class='ng-star-inserted']/tr[1]/td[2]/a' (tried for 160 second(s) with 500 milliseconds interval)
+	at shakeDown_US_main.Shakedown_CreateReq_AddResp_Test.Reprice(Shakedown_CreateReq_AddResp_Test.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //table[@class='custom-grid']/div[@class='ng-star-inserted']/tr[1]/td[2]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GAEG9SK', ip: '9.81.206.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: true, moz:processID: 29320, moz:profile: C:\Users\SanjayKushwaha\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 363536e9-65f3-4aa2-9ada-e1e7ae22ed11
+*** Element info: {Using=xpath, value=//table[@class='custom-grid']/div[@class='ng-star-inserted']/tr[1]/td[2]/a}
+	at shakeDown_US_main.Shakedown_CreateReq_AddResp_Test.Reprice(Shakedown_CreateReq_AddResp_Test.java:220)
+

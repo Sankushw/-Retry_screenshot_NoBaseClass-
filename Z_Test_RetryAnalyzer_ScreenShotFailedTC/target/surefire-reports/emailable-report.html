@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">ShakeDownSuite</th></tr><tr><td><a href="#t0">ShakeDownTest</a></td><td class="num">11</td><td class="num attn">3</td><td class="num attn">2</td><td class="num">477,134</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ShakeDownSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ShakeDownTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test</td><td><a href="#m0">Reprice</a></td><td rowspan="1">1613564209837</td><td rowspan="1">204759</td></tr><tr class="failedeven"><td><a href="#m1">add_response</a></td><td rowspan="1">1613564115828</td><td rowspan="1">93972</td></tr><tr><th colspan="4">ShakeDownTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test</td><td><a href="#m2">Reactivate</a></td><td rowspan="1">1613564414602</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">Resubmit</a></td><td rowspan="1">1613564414602</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">Withdraw</a></td><td rowspan="1">1613564414600</td><td rowspan="1">0</td></tr><tr><th colspan="4">ShakeDownTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="11">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test</td><td><a href="#m5">Create_Req</a></td><td rowspan="1">1613563999252</td><td rowspan="1">3985</td></tr><tr class="passedeven"><td><a href="#m6">OpenNewGreen</a></td><td rowspan="1">1613564101102</td><td rowspan="1">14725</td></tr><tr class="passedeven"><td><a href="#m7">RIPC_Login</a></td><td rowspan="1">1613563958783</td><td rowspan="1">40468</td></tr><tr class="passedeven"><td><a href="#m8">alert_check</a></td><td rowspan="1">1613564058181</td><td rowspan="1">38</td></tr><tr class="passedeven"><td><a href="#m9">req_detail</a></td><td rowspan="1">1613564030220</td><td rowspan="1">18622</td></tr><tr class="passedeven"><td><a href="#m10">select_Req</a></td><td rowspan="1">1613564009173</td><td rowspan="1">14297</td></tr><tr class="passedeven"><td><a href="#m11">select_jrss</a></td><td rowspan="1">1613564023470</td><td rowspan="1">6750</td></tr><tr class="passedeven"><td><a href="#m12">skill_Req</a></td><td rowspan="1">1613564003237</td><td rowspan="1">5936</td></tr><tr class="passedeven"><td><a href="#m13">skill_loc</a></td><td rowspan="1">1613564048842</td><td rowspan="1">9338</td></tr><tr class="passedeven"><td><a href="#m14">skill_price</a></td><td rowspan="1">1613564058220</td><td rowspan="1">11101</td></tr><tr class="passedeven"><td><a href="#m15">supp</a></td><td rowspan="1">1613564069322</td><td rowspan="1">31779</td></tr></tbody></table><h2>ShakeDownTest</h2><h3 id="m0">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#Reprice</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //table[@class=&apos;custom-grid&apos;]/div[@class=&apos;ng-star-inserted&apos;]/tr[1]/td[2]/a&apos; (tried for 160 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at shakeDown_US.Step02_AddResponse_US_NewApp.Reprice(Step02_AddResponse_US_NewApp.java:431)
+	at shakeDown_US_main.Shakedown_CreateReq_AddResp_Test.Reprice(Shakedown_CreateReq_AddResp_Test.java:220)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //table[@class=&apos;custom-grid&apos;]/div[@class=&apos;ng-star-inserted&apos;]/tr[1]/td[2]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GAEG9SK&apos;, ip: &apos;9.81.206.66&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: true, moz:processID: 29320, moz:profile: C:\Users\SanjayKushwaha\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 363536e9-65f3-4aa2-9ada-e1e7ae22ed11
+*** Element info: {Using=xpath, value=//table[@class=&apos;custom-grid&apos;]/div[@class=&apos;ng-star-inserted&apos;]/tr[1]/td[2]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 22 more
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#add_response</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;span class=&quot;headerTitle&quot;&gt; is not clickable at point (980,682) because another element &lt;div id=&quot;hj-survey-lbl-1&quot; class=&quot;_hj-1X9Q4__styles__surveyTitle &quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GAEG9SK&apos;, ip: &apos;9.81.206.66&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: true, moz:processID: 29320, moz:profile: C:\Users\SanjayKushwaha\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 363536e9-65f3-4aa2-9ada-e1e7ae22ed11
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at shakeDown_US.Step02_AddResponse_US_NewApp.FillRespdetails(Step02_AddResponse_US_NewApp.java:278)
+	at shakeDown_US_main.Shakedown_CreateReq_AddResp_Test.add_response(Shakedown_CreateReq_AddResp_Test.java:173)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#Reactivate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method Shakedown_CreateReq_AddResp_Test.Reactivate()[pri:13, instance:shakeDown_US_main.Shakedown_CreateReq_AddResp_Test@2acf57e3] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#Resubmit</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method Shakedown_CreateReq_AddResp_Test.Resubmit()[pri:14, instance:shakeDown_US_main.Shakedown_CreateReq_AddResp_Test@2acf57e3] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#Withdraw</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method Shakedown_CreateReq_AddResp_Test.Withdraw()[pri:12, instance:shakeDown_US_main.Shakedown_CreateReq_AddResp_Test@2acf57e3] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#Create_Req</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#OpenNewGreen</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#RIPC_Login</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#alert_check</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#req_detail</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#select_Req</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m11">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#select_jrss</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m12">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#skill_Req</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m13">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#skill_loc</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m14">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#skill_price</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m15">shakeDown_US_main.Shakedown_CreateReq_AddResp_Test#supp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
